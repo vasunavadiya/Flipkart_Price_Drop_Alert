@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 from email_alert import alert_system
 from threading import Timer
 
-URL = 'https://www.flipkart.com/noise-colorfit-pro-3-smartwatch/p/itm2e817033f1466'
+URL = 'https://www.flipkart.com/noise-colorfit-pro-3-smartwatch/p/itm2e817033f1466'  #Product Link that you want to track#
 
 headers = { 
 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36', 
